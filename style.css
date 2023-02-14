@@ -1,0 +1,593 @@
+@import url('https://fonts.cdnfonts.com/css/groupe');
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: #0a192f !important;
+  color: #08fdd8;
+}
+
+.top_nav {
+  position: absolute;
+  margin-top: 5vh;
+  margin-left: 85vw;
+}
+
+/* Feathers - START */
+.github {
+  padding: 0 10px;
+}
+
+.github2 {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.github2:hover {
+  color: #08fdd8 !important;
+}
+
+.linkedin {
+  padding: 0 10px;
+}
+
+.folder {
+  justify-content: left;
+  font-size: 20px !important;
+}
+
+/* Feathers - END */
+
+.main-content {
+  max-width: 60vw;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  margin: auto;
+  flex-direction: column;
+}
+
+/* Title - START */
+.title-section {
+  margin-top: 30vh;
+  margin-bottom: 50vh;
+}
+
+.title_1 {
+  font-family: 'GROUPE', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px #08fdd8;
+  margin-bottom: -3vh;
+}
+
+.title_2 {
+  font-family: 'GROUPE', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px #fff;
+  color: #fff;
+}
+
+/* Title - END */
+
+/* About - START */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0vh;
+  margin-bottom: 20vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_1 {
+  font-family: 'GROUPE', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px #08fdd8;
+  color: #08fdd8;
+  width: 100%;
+}
+
+.about_2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+  color: #a8b2d1;
+  font-weight: bold;
+  white-space: pre-line;
+  max-inline-size: 500px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+img.photo {
+  width: fit-content;
+  height: auto;
+  opacity: 80%;
+  display: block;
+  background-color: #08fdd8 !important;
+  border-radius: 10%;
+}
+
+.photo_background {
+  opacity: 80% !important;
+  background-color: #08fdd8 !important;
+  padding-left: -10px !important;
+  border-radius: 10% !important;
+}
+
+/* About - END */
+
+/* Work - START */
+.work-content {
+  margin-top: 0vh;
+  margin-bottom: 20vh;
+}
+
+.work_1 {
+  font-family: 'GROUPE', sans-serif !important;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px #08fdd8;
+  color: #08fdd8;
+}
+
+.work_2 {
+  font-size: 18px;
+  color: #ccd6f6;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+}
+
+.work_3 {
+  font-size: 12px;
+  color: #ccd6f6;
+  font-weight: bolder;
+  text-align: left !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.work_4 {
+  font-size: 12px;
+  color: #ccd6f6;
+  font-weight: bolder;
+  text-align: center !important;
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+}
+
+/* Work - END */
+
+/* Contact - START */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0vh;
+  margin-bottom: 20vh;
+}
+
+.contact_1 {
+  font-family: 'GROUPE', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px #08fdd8;
+  color: #08fdd8;
+}
+
+.contact_2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  color: #a8b2d1;
+  max-inline-size: 1000px;
+}
+
+/* Contact - END */
+
+/* Footer - START */
+.copyright {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #a8b2d1;
+}
+
+/* Footer - END */
+
+/* Selection - START */
+::selection {
+  background: #08fdd818;
+}
+
+/* Selection - END */
+
+/* Transition Effect - START */
+.hidden {
+  opacity: 0;
+  transform: translateY(-10%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hidden {
+    transition: all 1s;
+  }
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Transition Effect - END */
+
+/* Links - START */
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* Links - END */
+
+/* Buttons - START */
+button {
+  color: #08fdd8;
+  background: none;
+  border: 2px solid;
+  font-family: 'GROUPE', sans-serif;
+  line-height: 1;
+  border-radius: 10%;
+  margin: 0.5em;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #08fdd818;
+}
+/* Buttons - END */
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Grids - START */
+.grid {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.grid__item {
+  align-items: center;
+  max-height: 250px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  background-color: #112240;
+  padding: 50px;
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.2s ease;
+  font-family: 'GROUPE', sans-serif;
+}
+
+.grid__item:hover,
+.grid__item:focus-within {
+  transform: translateY(-10px);
+}
+
+.grid__item a {
+  position: relative;
+  z-index: 1;
+}
+
+.grid__item h2 {
+  margin-top: 0;
+}
+
+.grid__item h2 a {
+  position: static;
+  display: inline-block;
+}
+
+.grid__item h2 a:hover,
+.grid__item h2 a:focus {
+  color: #08fdd8;
+}
+
+.grid__item h2 a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: background-color 0.1s ease-out;
+  background-color: transparent;
+}
+
+.grid__item ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.grid__item ul li {
+  margin-right: 10px;
+}
+
+.grid__item ul li a {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.grid__item ul li a:hover,
+.grid__item ul li a:focus {
+  color: blue;
+  background-color: white;
+}
+
+/* Grids - END */
+
+/* Sidebar - START */
+.sidebar {
+  transition: left 0.3s ease-in-out;
+
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  height: 100%;
+  width: 120px;
+  background-color: #020c1b;
+  position: fixed;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px 50px #020c1b;
+}
+
+.sidebar.visible {
+  left: 0;
+}
+
+.nav-item:first-of-type {
+  margin-top: 40vh;
+  color: #08fdd8 !important;
+  text-shadow: 0 0 5px #08fdd8 !important;
+}
+
+.nav-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #020c1b;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ccc !important;
+  font-family: 'GROUPE', sans-serif;
+}
+
+.nav-item:hover {
+  color: #08fdd8 !important;
+}
+
+/* Sidebar - END */
+
+/* Scroll-Bar - START */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #0a192f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8892b0;
+  border-radius: 100px;
+}
+
+/* Scroll-Bar - End */
+
+/* Totoro Animation - START */
+body:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 80%;
+  left: 50%;
+  opacity: 50%;
+  transform: translate(-50%, -50%) !important;
+  background: url("totoro.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: right;
+  -webkit-animation: squiggly-anim 0.3s infinite;
+  animation: squiggly-anim 0.3s infinite;
+}
+
+@-webkit-keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+
+  25% {
+    filter: url("#squiggly-1");
+  }
+
+  50% {
+    -webkit-filter: url("#squiggly-2");
+  }
+
+  75% {
+    filter: url("#squiggly-3");
+  }
+
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+
+@keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+
+  25% {
+    filter: url("#squiggly-1");
+  }
+
+  50% {
+    -webkit-filter: url("#squiggly-2");
+  }
+
+  75% {
+    filter: url("#squiggly-3");
+  }
+
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+
+/* Totoro Animation - END */
+
+/* Noise Effect - START */
+.noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 2%;
+  pointer-events: none;
+  z-index: 1;
+  background: url(noise.gif);
+}
+
+/* Noise Effect - END */
+
+/* Mobile Screen Size - START */
+
+@media (max-width: 768px) {
+
+  .main-content {
+    max-width: 85vw !important;
+  }
+
+  .top_nav {
+    margin-left: 25vw;
+    margin-top: 38vh;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .title-section {
+    margin-top: 0vh !important;
+    margin-bottom: 60vh !important;
+  }
+
+  .title_1 {
+    font-size: 50px;
+  }
+
+  .title_2 {
+    font-size: 50px;
+  }
+
+  .about_1 {
+    font-size: 30px;
+  }
+
+  .work_1 {
+    font-size: 30px;
+  }
+
+  .grid__item {
+    max-height: 300px !important;
+    padding: 35px !important;
+  }
+
+  .contact_1 {
+    font-size: 30px;
+  }
+
+  img.photo {
+    width: 300px !important;
+    height: auto;
+    opacity: 80%;
+    display: block;
+    background-color: #08fdd8 !important;
+    border-radius: 10%;
+  }
+
+  .photo_background {
+    opacity: 80% !important;
+    background-color: #08fdd8 !important;
+    padding-left: -10px !important;
+    border-radius: 10% !important;
+  }
+
+  body:before {
+    background-size: 300px !important;
+    background-position: center !important;
+    top: 70% !important;
+  }
+
+  .about_2 {
+    width: 100% !important;
+    margin-right: 0px !important;
+    max-inline-size: 100% !important;
+  }
+
+  .contact_2 {
+    text-align: left !important;
+  }
+}
+
+/* Mobile Screen Size - END */
